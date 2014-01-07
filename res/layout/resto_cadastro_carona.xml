@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/repeat"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Referência de partida"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etRefPartida"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10" />
+	
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Referência de chegada"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etRefChegada"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10" />
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Horário de partida (hh:mm)"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etHorarioPartida"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10" >
+	
+	      
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Data de partida (dd/mm/yyyy)"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etData"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Número máximo de lugares"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etMax"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="number" />
+	    
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Valor (opcional)"
+	        android:textColor="#FFFFFF" />
+	
+	    <EditText
+	        android:id="@+id/etValor"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="number" />
+	
+	    <Button
+	        android:id="@+id/btFinalizar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Finalizar"
+	        style="@style/btnStyleBreakerBay" />
+	
+	</LinearLayout>
+</ScrollView>

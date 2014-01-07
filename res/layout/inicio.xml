@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/repeat"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btCadastrarCarona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quero oferecer carona"
+        style="@style/btnStyleBreakerBay" />
+    <Button
+        android:id="@+id/btBuscarCarona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quero pegar carona"
+        style="@style/btnStyleBreakerBay" />
+    
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
